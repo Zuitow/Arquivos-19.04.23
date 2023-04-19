@@ -1,4 +1,11 @@
+
 .botao {
     background-color: darkslateblue;
     font-family: MC Matte;
+    color: aliceblue;
+    width: 225px;
+    height: 30px;
+    border-radius: 15px;
+    
 }
+

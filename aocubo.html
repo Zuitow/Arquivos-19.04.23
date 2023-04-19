@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    <div class="tudo">
     <script>
        function calcularCubo() {
   var numero = prompt("Digite um número:");
   var cubo = numero * numero * numero;
-  return cubo;
+  window.alert("O valor do ao cubo é " + cubo);
 }
-var resultado = calcularCubo();
-alert("O cubo do número é " + resultado);
 
     </script>
-    <button onclick="calcularCubo()" class="botao">Botão Area</button>
-   
+    <button class="botao" onclick="calcularCubo()" >Botão Area</button>
+</div>
 </body>
 </html>
