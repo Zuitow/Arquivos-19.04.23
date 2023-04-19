@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+       function calcularCubo() {
+  var numero = prompt("Digite um número:");
+  var cubo = numero * numero * numero;
+  return cubo;
+}
+var resultado = calcularCubo();
+alert("O cubo do número é " + resultado);
+
+function calcularFain(fahrenheit) {
+    var celsius = (fahrenheit - 32) * 5/9;
+    return celsius;
+}
+    
+var grausF = 75;
+var grausC = calcularFain(fahrenheit);
+alert(grausF + "graus Fahrenheit equivalem a " + temperaturaC + " graus Celsius.")
+
+
+    </script>
+    <input id="val1" value="1">
+    <input id="val2" value="2">
+    <button onclick="escreve()">Escrever</button>
+    <p id="resultado">XXXX</p>
+</body>
+</html>
