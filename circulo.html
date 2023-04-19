@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -8,15 +8,23 @@
 <body>
     <script>
 function areaCir(pi, raio) {
-    var raio = prompt("Digite o valor da base");
+    var raio = prompt("Digite o valor do raio");
     var pi = (3.1415);
     var area = (raio * raio * pi);
     window.alert(area);
+}
+function cirPe(pi, raio) {
+    var raio = prompt("Digite o valor do raio");
+    var pi = (3.1415);
+    var perimetro = (2 * pi * raio);
+    window.alert(perimetro);
 }
 
     
     </script>
    
-   <button onclick="areaCir()">Botão</button>
+   <button onclick="areaCir()">Botão Area</button>
+   <button onclick="cirPe()">Botão Perimetro</button>
+
 </body>
 </html>
